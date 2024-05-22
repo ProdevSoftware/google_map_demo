@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "58309915150",
+    "project_id": "authentication-demo-66a9b",
+    "storage_bucket": "authentication-demo-66a9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58309915150:android:22a893dd56a53741f3425f",
+        "android_client_info": {
+          "package_name": "com.example.google_map_demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ7Mr5F3jbAMCKE7EDhO6gfzutoyPwCT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
