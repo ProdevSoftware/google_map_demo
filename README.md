@@ -6,7 +6,7 @@ Google Maps app is a simple flutter app that helps you locate your nearest locat
 
 - Here it will show your current location
 - A polyline will appear from your current location to the location you selected
-- f you click on map, it will show you the path from your current location to the selected location 
+- if you click on map, it will show you the path from your current location to the selected location 
 - Here you are also given the option of location search so that you can find your target location
 
 
