@@ -13,7 +13,6 @@ Google Maps app is a simple flutter app that helps you locate your nearest locat
 ## Getting Started
 
 static const String mapApiKey = "YOUR_ANDROID_KEY";
-static const String mapApiKeyForIos = "YOUR_IOS_KEY";
 
 
 ## Dependencies
@@ -25,3 +24,9 @@ static const String mapApiKeyForIos = "YOUR_IOS_KEY";
 - flutter_svg
 - uuid
 - google_places_flutter
+
+
+## Video
+
+https://github.com/ProdevSoftware/google_map_demo/assets/97152083/fd45b7f6-303d-45f6-99a9-d70495155b18
+
