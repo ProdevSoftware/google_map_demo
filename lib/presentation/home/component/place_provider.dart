@@ -8,8 +8,7 @@ class PlaceApiProvider {
   final client = Client();
   PlaceApiProvider(this.sessionToken);
   final String sessionToken;
-  final apiKey =
-  Platform.isAndroid ? ApiKeyConst.mapApiKey : ApiKeyConst.mapApiKeyForIos;
+  final apiKey = ApiKeyConst.mapApiKey;
 
   Future<List<Suggestion>> fetchSuggestions(String input, String lang) async {
     final request =

@@ -228,7 +228,7 @@ class _HomeScreenState extends State<HomeScreen> {
     double destLatitude = to.latitude;
     double destLongitude = to.longitude;
     PolylineResult results = await PolylinePoints().getRouteBetweenCoordinates(
-      Platform.isAndroid ? ApiKeyConst.mapApiKey : ApiKeyConst.mapApiKeyForIos,
+       ApiKeyConst.mapApiKey,
       PointLatLng(originLatitude, originLongitude),
       PointLatLng(destLatitude, destLongitude),
     );
@@ -333,9 +333,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
     if (result != null) {
       GoogleMapsPlaces places = GoogleMapsPlaces(
-        apiKey: Platform.isAndroid
-            ? ApiKeyConst.mapApiKey
-            : ApiKeyConst.mapApiKeyForIos,
+        apiKey: ApiKeyConst.mapApiKey,
       );
       PlacesDetailsResponse detail =
           await places.getDetailsByPlaceId(result.placeId);
